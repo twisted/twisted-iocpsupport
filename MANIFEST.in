@@ -1,0 +1,4 @@
+include twisted_iocpsupport/*.pxi
+include twisted_iocpsupport/*.pyx
+exclude twisted_iocpsupport/*.c
+include twisted_iocpsupport/winsock_pointers.c
