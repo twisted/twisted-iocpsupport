@@ -1,6 +1,10 @@
 The PyPI package publishing is done automatically via GitHub actions when a new tag is pushed.
 
-To trigger the release for new version, follow this process:
+To push a tag and trigger the release for new version::
+
+    pipx run --pip-args="cython" --spec="zest.releaser[recommended]>=6.22.1" fullrelease
+
+You can also apply this process manually:
 
 * Create a new branch with the name `release-VER` (ex release-1.1.0) No need to create a separate issue.
 * On that branch update the version from `setup.cfg ` to the final version to be released.
