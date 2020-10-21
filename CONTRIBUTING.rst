@@ -21,3 +21,6 @@ You can check the GitHub actions release process here https://github.com/twisted
 Below is the template text for the unreleased NEWS section::
 
     1.0.1 (unreleased)
+    ------------------
+
+    - Nothing changed yet.
