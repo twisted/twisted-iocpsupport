@@ -1,1 +1,25 @@
-An extension for use in the L{twisted.internet.iocpreactor} I/O Completion Ports reactor.
+twisted-iocpsupport
+===================
+
+.. image:: https://img.shields.io/github/workflow/status/twisted/twisted-iocpsupport/Build%20and%20upload%20to%20PyPI?label=GitHub%20Actions&logo=github
+    :alt: GitHub Actions
+    :target: https://github.com/twisted/twisted-iocpsupport/
+.. image:: https://img.shields.io/pypi/v/twisted-iocpsupport?logo=pypi
+    :alt: PyPI
+    :target: https://pypi.org/project/twisted-iocpsupport/
+
+
+An extension for use in the L{twisted.internet.iocpreactor} I/O Completion
+Ports reactor.
+
+This code was initially part of the core Twisted project. It was moved into a
+separate repo in order to simplify the Twisted production deployment. As such,
+issues are handled by the Twisted Trac Ticketing system
+https://twistedmatrix.com/trac/search?q=iocp&noquickjump=1&ticket=on
+Additionally, this package provides no compatability gurantees: All use must
+be via the ``Twisted`` PyPI distribution and ``twisted`` Python package.
+Applications must not depend on the ``twisted-iocpsupport`` PyPI distribution
+directly. Applications must not import names from the ``twisted_iocpsupport``
+package directly.
+See https://twistedmatrix.com/documents/current/core/development/policy/compatibility-policy.html
+for the Twisted Compatability Policy.
