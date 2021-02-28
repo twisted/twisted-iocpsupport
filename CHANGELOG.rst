@@ -1,10 +1,16 @@
 Changelog
 =========
 
-1.0.1 (unreleased)
+1.0.2 (unreleased)
 ------------------
 
 - Nothing changed yet.
+
+
+1.0.1 (2021-02-28)
+------------------
+
+- Fix winsock_pointers.h missing in sdist https://twistedmatrix.com/trac/ticket/10103
 
 
 1.0.0 (2020-10-20)

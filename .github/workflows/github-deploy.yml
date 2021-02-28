@@ -8,6 +8,24 @@ on:
   pull_request:
 
 jobs:
+  check_manifest:
+    name: Check MANIFEST.in
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        name: Install Python
+        with:
+          python-version: '3.7'
+
+      - name: Install Check-manifest
+        run: |
+          python -m pip install check-manifest
+
+      - name: Check manifest
+        run: python -m check_manifest
+
   build_wheels:
     name: Build wheels on windows-latest
     runs-on: windows-latest
