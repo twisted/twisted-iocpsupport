@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
-------------------
+1.0.2rc0 (2021-08-23)
+---------------------
 
 - Compile 3.10 wheels https://twistedmatrix.com/trac/ticket/10250
 
