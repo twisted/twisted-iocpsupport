@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.3 (unreleased)
+1.0.3 (2023-03-30)
 ------------------
 
 - Compile 3.11 wheels.
