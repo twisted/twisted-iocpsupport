@@ -4,7 +4,7 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Compile 3.11 wheels.
 
 
 1.0.2 (2021-09-06)
