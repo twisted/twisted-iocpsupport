@@ -21,4 +21,4 @@ All use must be via the ``Twisted`` PyPI distribution and ``twisted`` Python pac
 Applications must not depend on the ``twisted-iocpsupport`` PyPI distribution directly.
 Applications must not import names from the ``twisted_iocpsupport``
 package directly.
-See the `Twisted Compatability Policy <https://docs.twisted.org/en/stable/development/compatibility-policy.html`_ for more info.
+See the `Twisted Compatability Policy <https://docs.twisted.org/en/stable/development/compatibility-policy.html>`_ for more info.
