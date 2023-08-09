@@ -14,12 +14,11 @@ Ports reactor.
 
 This code was initially part of the core Twisted project. It was moved into a
 separate repo in order to simplify the Twisted production deployment. As such,
-issues are handled by the Twisted Trac Ticketing system
-https://twistedmatrix.com/trac/search?q=iocp&noquickjump=1&ticket=on
-Additionally, this package provides no compatability gurantees: All use must
-be via the ``Twisted`` PyPI distribution and ``twisted`` Python package.
-Applications must not depend on the ``twisted-iocpsupport`` PyPI distribution
-directly. Applications must not import names from the ``twisted_iocpsupport``
+issues are handled via the `twisted/twisted GitHub Issues system <https://github.com/twisted/twisted/issues?q=is%3Aopen+is%3Aissue+label%3Aiocpreactor>`_
+
+Additionally, this package provides no compatability gurantees:
+All use must be via the ``Twisted`` PyPI distribution and ``twisted`` Python package.
+Applications must not depend on the ``twisted-iocpsupport`` PyPI distribution directly.
+Applications must not import names from the ``twisted_iocpsupport``
 package directly.
-See https://twistedmatrix.com/documents/current/core/development/policy/compatibility-policy.html
-for the Twisted Compatability Policy.
+See the `Twisted Compatability Policy <https://docs.twisted.org/en/stable/development/compatibility-policy.html`_ for more info.
