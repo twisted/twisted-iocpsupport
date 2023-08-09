@@ -1,7 +1,7 @@
 twisted-iocpsupport
 ===================
 
-.. image:: https://img.shields.io/github/workflow/status/twisted/twisted-iocpsupport/Build%20and%20upload%20to%20PyPI?label=GitHub%20Actions&logo=github
+.. image:: https://img.shields.io/github/actions/workflow/status/twisted/twisted-iocpsupport/github-deploy.yml?branch=default
     :alt: GitHub Actions
     :target: https://github.com/twisted/twisted-iocpsupport/
 .. image:: https://img.shields.io/pypi/v/twisted-iocpsupport?logo=pypi
