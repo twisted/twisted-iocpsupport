@@ -8,4 +8,5 @@ include twisted_iocpsupport/winsock_pointers.c
 include LICENSE
 exclude CHANGELOG.rst
 exclude CONTRIBUTING.rst
+exclude SECURITY.md
 exclude .pre-commit-config.yaml
