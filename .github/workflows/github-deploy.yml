@@ -48,6 +48,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
+          name: artifact-wheels
           path: ./wheelhouse/*.whl
 
   build_sdist:
@@ -70,6 +71,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
+          name: artifact-sdist
           path: dist/*.tar.gz
 
   upload_pypi:
@@ -80,9 +82,10 @@ jobs:
     # alternatively, to publish when a GitHub Release is created, use the following rule:
     # if: github.event_name == 'release' && github.event.action == 'published'
     steps:
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
-          name: artifact
+          pattern: artifact-*
+          merge-multiple: true
           path: dist
 
       - uses: pypa/gh-action-pypi-publish@master
