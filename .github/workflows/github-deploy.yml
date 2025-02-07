@@ -88,6 +88,9 @@ jobs:
           merge-multiple: true
           path: dist
 
+      - name: Check files
+        run: ls -al dist/
+
       - uses: pypa/gh-action-pypi-publish@master
         with:
           user: __token__
