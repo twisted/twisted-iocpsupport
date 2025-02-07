@@ -7,11 +7,10 @@ import setuptools
 import sysconfig
 from Cython.Build import cythonize
 
-if sysconfig.get_config_var('abi_thread') == 't':
+if sysconfig.get_config_var("abi_thread") == "t":
     setuptools.setup(
         ext_modules=cythonize(
             [
-                
                 setuptools.Extension(
                     "twisted_iocpsupport.iocpsupport",
                     sources=[
