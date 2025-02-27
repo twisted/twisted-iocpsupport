@@ -9,4 +9,5 @@ include LICENSE
 exclude CHANGELOG.rst
 exclude CONTRIBUTING.rst
 exclude SECURITY.md
+exclude RELEASE.rst
 exclude .pre-commit-config.yaml
