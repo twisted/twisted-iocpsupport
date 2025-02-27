@@ -7,7 +7,7 @@ on:
     # We should make sure to only push tags for new releases.
     # If we start using tags for non-release purposes,
     # this needs to be updated.
-    tags:
+    tags: [ "**" ]
   pull_request:
 
 jobs:
