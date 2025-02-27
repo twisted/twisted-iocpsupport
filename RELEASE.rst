@@ -12,8 +12,7 @@ To do a release, follow these steps:
 * Request the review from `twisted-contributors` team.
 * Once the PR is approved create a `git tag` based on the latest commit from
   the PR.
-  The tag name should be in the format `vYEAR.MONTH.NUMBER`.
-  That is, it should start with lowecase `v` followed by the version.
+  The tag name should be the current version.
 * Push the tag to Github.
   This will automatically trigger the build process for the wheels and will
   publish them to PyPI
@@ -21,6 +20,9 @@ To do a release, follow these steps:
 
 Implementation details
 ======================
+
+To publish to PyPi, the GitHub Action workflow needs to be named `github-deploy.yml`.
+You can `reconfigure this via PyPi <https://pypi.org/manage/project/twisted-iocpsupport/settings/publishing/>`_.
 
 The binary wheels are generated using `cibuildwheel`.
 To build wheels for newer Python version you might need to update the version
