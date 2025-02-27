@@ -3,10 +3,12 @@ on:
   push:
     branches:
       - trunk
-    # To simplify the release process, the publishing is triggred on any push tag.
+    # To simplify the release process, the publishing is triggered on tag.
     # We should make sure to only push tags for new releases.
     # If we start using tags for non-release purposes,
     # this needs to be updated.
+    #
+    # We need to explicitly configure an expression that matches anything.
     tags: [ "**" ]
   pull_request:
 
