@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - trunk
+    # To simplify the release process, the publishing is triggred on any push tag.
+    # We should make sure to only push tags for new releases.
+    # If we start using tags for non-release purposes,
+    # this needs to be updated.
     tags:
   pull_request:
 
