@@ -32,8 +32,8 @@ jobs:
         run: python -m check_manifest
 
   build_wheels:
-    name: Build wheels on windows-latest
-    runs-on: windows-latest
+    name: Build wheels on windows
+    runs-on: windows-2022
 
     steps:
       - uses: actions/checkout@v4
