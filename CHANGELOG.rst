@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+25.10.0 (2025-19-27)
+-------------------
+
+- Add support for Python 3.14 wheels.
+- Add support for Python 3.14 free threading wheels.
+
+
 25.2.0 (2025-02-27)
 -------------------
 
