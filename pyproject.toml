@@ -7,5 +7,8 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.cibuildwheel]
-enable = ["cpython-freethreading"]
-skip = "cp36-* cp37-*"
+enable = ['all']
+# See the list of supported platforms
+# https://cibuildwheel.pypa.io/en/stable/options/#build-skip
+# We explictly select which Windows we want to support. 
+build = "cp39-win_amd64 cp310-win_amd64 cp311-win_amd64 cp312-win_amd64 cp313-win_amd64 cp314-win_amd64 pp310-win_amd64 pp311-win_amd64"

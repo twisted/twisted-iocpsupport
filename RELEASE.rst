@@ -8,6 +8,8 @@ To do a release, follow these steps:
 * Create a new branch. You can name the branch `release-YEAR.MONTH`.
 * Update the `[metadata] version` inside `setup.cfg`
 * Update the `Changelog.rst` file with the summary of the changes.
+* Update the version of `cibuildwheel` used  in `.github/workflows/github-deploy.yml`.
+  Most probably you need a newer version that supports newer Python versions.
 * Commit the changes to GitHub and create a PR
 * Request the review from `twisted-contributors` team.
 * Once the PR is approved, create a new release via `GitHub Releases<https://github.com/twisted/twisted-iocpsupport/releases/new>`_.
