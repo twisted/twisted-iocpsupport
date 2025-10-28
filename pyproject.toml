@@ -7,7 +7,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.cibuildwheel]
-enable = ["cpython-freethreading"]
+enable = ["cpython-freethreading", "pypy"]
 # See the list of supported platforms
 # https://cibuildwheel.pypa.io/en/stable/options/#build-skip
 # We explictly select which Windows we want to support. 
