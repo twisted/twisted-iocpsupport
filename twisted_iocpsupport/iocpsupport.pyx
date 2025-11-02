@@ -1,5 +1,6 @@
 # Copyright (c) Twisted Matrix Laboratories.
 # See LICENSE for details.
+# cython: freethreading_compatible = True
 
 from cpython.version cimport PY_MAJOR_VERSION
 
