@@ -2,6 +2,12 @@ Changelog
 =========
 
 
+Unreleased
+----------
+
+- Add support for free threading wheels for Python 3.13 and 3.14
+
+
 25.10.1 (2025-19-27)
 -------------------
 
