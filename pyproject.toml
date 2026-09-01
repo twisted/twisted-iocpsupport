@@ -8,6 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.cibuildwheel]
 enable = ['all']
+test-command = 'python -c "from twisted_iocpsupport.iocpsupport import CompletionPort; CompletionPort()"'
 # See the list of supported platforms
 # https://cibuildwheel.pypa.io/en/stable/options/#build-skip
 # We explictly select which Windows we want to support. 
