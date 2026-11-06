@@ -17,3 +17,4 @@ Please note that the trac ticket, news fragment, and review submission portions 
 
 * [ ] The associated ticket in Trac is here: https://twistedmatrix.com/trac/ticket/<!-- Create a new one at https://twistedmatrix.com/trac/newticket and replace this comment with the ticket number. -->
 * [ ] I have submitted the associated Trac ticket for review by adding the word `review` to the keywords field in Trac, and putting a link to this PR in the comment; it shows up in https://twisted.reviews/ now.
+* [ ] I have not directly included the output of any generative AI system in this pull request, as per our [policy on generative AI](https://docs.twisted.org/en/latest/development/ai-policy.html).
