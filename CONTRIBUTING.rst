@@ -24,3 +24,8 @@ Below is the template text for the unreleased NEWS section::
     ------------------
 
     - Nothing changed yet.
+
+AI Policy
+---------
+
+This project follows the `Twisted AI Policy <https://docs.twisted.org/en/latest/development/ai-policy.html>`_. This means this project does not allow the inclusion of the outputs of generative AI tools.
